@@ -1,12 +1,13 @@
 # PRIMARY KEY
 
-A **PRIMARY KEY** identifica **unicamente cada registro de uma tabela**.
+A restrição **PRIMARY KEY** identifica **unicamente cada registro de uma tabela**.
 
 Características:
 
-- valores únicos
-- não permite NULL
-- cada tabela possui apenas **uma chave primária**
+- valores únicos;
+- não permite NULL;
+- cada tabela possui apenas uma dela;
+- principal índice da tabela;
 
 ## Exemplo
 
