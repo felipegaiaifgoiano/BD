@@ -1,6 +1,6 @@
 # CHECK
 
-A constraint **CHECK** limita os valores que podem ser inseridos em uma coluna.
+A restrição **CHECK** limita o conjunto de valores que podem ser inseridos em uma coluna.
 
 ## Exemplo
 
@@ -16,4 +16,4 @@ Neste caso apenas pessoas **maiores ou iguais a 18 anos** podem ser inseridas.
 
 ## Exercício
 
-Crie uma tabela **Funcionarios** onde o salário seja sempre **maior que 1000**.
+Crie uma tabela **Funcionarios** onde o salário seja sempre **maior que 1000.00**.
