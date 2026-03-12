@@ -1,6 +1,6 @@
 # DEFAULT
 
-A constraint **DEFAULT** define um valor padrão quando nenhum valor é informado.
+A restrição **DEFAULT** define um valor padrão quando nenhum valor ainda foi inserido em uma coluna.
 
 ## Exemplo
 
