@@ -1,8 +1,8 @@
 # NOT NULL
 
-A constraint **NOT NULL** garante que uma coluna **não pode receber valores NULL**.
+A restrição **NOT NULL** garante que uma coluna **não pode receber valores "vazios" ou NULL**.
 
-Por padrão, colunas podem aceitar NULL. Ao usar NOT NULL, garantimos que sempre haverá um valor.
+Por padrão, colunas aceitam NULL. Ao usar NOT NULL, garantimos que sempre haverá um valor.
 
 ## Exemplo
 
@@ -17,7 +17,6 @@ CREATE TABLE Pessoas (
 ## Exercício
 
 Crie uma tabela chamada **Produtos** com:
-
 - id
 - nome
 - preco
