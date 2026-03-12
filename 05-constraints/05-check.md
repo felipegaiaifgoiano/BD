@@ -1,3 +1,9 @@
+**Progresso do tutorial:** 
+5 / 7 🟩🟩🟩🟩🟩⬜⬜
+
+[🏠 Início](README.md) |  [◀ Anterior](04-foreign-key.md) |  [Próximo ▶](06-default.md)
+
+
 # CHECK
 
 A restrição **CHECK** limita o conjunto de valores que podem ser inseridos em uma coluna.
