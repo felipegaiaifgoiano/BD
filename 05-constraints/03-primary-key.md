@@ -1,3 +1,9 @@
+**Progresso do tutorial:** 
+3 / 7 🟩🟩🟩⬜⬜⬜⬜
+
+[🏠 Início](README.md) |  [◀ Anterior](02-unique.md) |  [Próximo ▶](04-foreign-key.md)
+
+
 # PRIMARY KEY
 
 A restrição **PRIMARY KEY** identifica **unicamente cada registro de uma tabela**.
