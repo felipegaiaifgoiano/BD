@@ -1,3 +1,9 @@
+**Progresso do tutorial:** 
+1 / 7 🟩🟩🟩🟩🟩🟩🟩
+
+[🏠 Início](README.md) |  [◀ Anterior](06-default.md)
+
+
 # CREATE INDEX
 
 Um **INDEX (índice)** é utilizado para **aumentar a velocidade de consultas em uma tabela**.
