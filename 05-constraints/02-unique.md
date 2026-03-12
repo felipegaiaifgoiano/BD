@@ -1,3 +1,9 @@
+**Progresso do tutorial:** 
+2 / 7 🟩🟩⬜⬜⬜⬜⬜
+
+[🏠 Início](README.md) |  [◀ Anterior](01-not-null.md) |  [Próximo ▶](03-primary-key.md)
+
+
 # UNIQUE
 
 A restrição **UNIQUE** garante que **todos os valores de uma coluna sejam diferentes**, ou seja, a coluna não possui valores repetidos.
