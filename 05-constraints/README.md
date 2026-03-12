@@ -1,5 +1,5 @@
 ![SQL](https://img.shields.io/badge/SQL-learning-blue)
-![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
+![Status](https://img.shields.io/badge/status-desenvolvido-brightgreen)
 ![License](https://img.shields.io/badge/license-educational-green)
 
 # SQL – Constraints (Restrições)
