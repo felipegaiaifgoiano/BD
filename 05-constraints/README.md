@@ -13,6 +13,7 @@ Uso sugerido: disciplinas de Banco de Dados.
 4. [FOREIGN KEY](04-foreign-key.md)
 5. [CHECK](05-check.md)
 6. [DEFAULT](06-default.md)
+7. [INDEX](07-index.md)
 
 ---
 Cada link possui:

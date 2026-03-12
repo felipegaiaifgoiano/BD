@@ -1,0 +1,85 @@
+# CREATE INDEX
+
+Um **INDEX (índice)** é utilizado para **aumentar a velocidade de consultas em uma tabela**.
+
+Os índices funcionam de forma semelhante ao índice de um livro:  
+eles permitem encontrar dados rapidamente sem precisar percorrer toda a tabela.
+
+⚠️ Observação:
+
+- índices aceleram consultas (`SELECT`)
+- mas podem deixar operações de escrita mais lentas (`INSERT`, `UPDATE`, `DELETE`)
+
+Isso acontece porque o índice também precisa ser atualizado.
+
+---
+
+# Sintaxe
+
+CREATE INDEX nome_do_indice
+ON tabela (coluna);
+
+---
+
+# Exemplo
+
+CREATE INDEX idx_lastname
+ON Customers (LastName);
+
+Agora consultas que utilizam a coluna `LastName` podem ser executadas mais rapidamente.
+
+---
+
+# Índice em múltiplas colunas
+
+Também é possível criar índices compostos.
+
+CREATE INDEX idx_nome_cidade
+ON Customers (Name, City);
+
+---
+
+# Remover um índice
+
+A sintaxe depende do banco de dados.
+
+Exemplo no MySQL:
+
+DROP INDEX idx_lastname ON Customers;
+
+---
+
+# Quando usar índices
+
+Índices são recomendados em colunas usadas frequentemente em:
+
+- WHERE
+- JOIN
+- ORDER BY
+
+---
+
+# Exemplo de consulta beneficiada
+
+SELECT *
+FROM Customers
+WHERE LastName = 'Silva';
+
+Se houver índice em `LastName`, a consulta será mais rápida.
+
+---
+
+# Exercício
+
+Considere a tabela:
+
+CREATE TABLE Produtos (
+    id INT PRIMARY KEY,
+    nome VARCHAR(100),
+    categoria VARCHAR(100),
+    preco DECIMAL
+);
+
+1️⃣ Crie um índice para a coluna `nome`.
+
+2️⃣ Crie um índice composto para `categoria` e `preco`.
