@@ -1,3 +1,9 @@
+**Progresso do tutorial:** 
+4 / 7 🟩🟩🟩🟩⬜⬜⬜
+
+[🏠 Início](README.md) |  [◀ Anterior](03-primary-key.md) |  [Próximo ▶](05-check.md)
+
+
 # FOREIGN KEY
 
 A restrição **FOREIGN KEY** cria um relacionamento entre duas tabelas.
