@@ -1,8 +1,10 @@
 # UNIQUE
 
-A constraint **UNIQUE** garante que **todos os valores de uma coluna sejam diferentes**.
+A restrição **UNIQUE** garante que **todos os valores de uma coluna sejam diferentes**, ou seja, a coluna não possui valores repetidos.
 
-Diferente da PRIMARY KEY, uma tabela pode possuir **várias colunas UNIQUE**.
+A chave primária **(PRIMARY KEY)** também garante esta característica para uma coluna (unitária) ou um conjunto de colunas (composta).
+
+Porém uma tabela pode possuir **várias colunas separadas UNIQUE**.
 
 ## Exemplo
 
