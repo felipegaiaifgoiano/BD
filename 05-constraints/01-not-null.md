@@ -1,3 +1,8 @@
+**Progresso do tutorial:** 
+1 / 7 🟩⬜⬜⬜⬜⬜⬜
+
+[🏠 Início](README.md) | [Próximo ▶](02-unique.md)
+
 # NOT NULL
 
 A restrição **NOT NULL** garante que uma coluna **não pode receber valores "vazios" ou NULL**.
