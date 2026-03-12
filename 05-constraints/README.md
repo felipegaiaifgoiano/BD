@@ -1,3 +1,7 @@
+![SQL](https://img.shields.io/badge/SQL-learning-blue)
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
+![License](https://img.shields.io/badge/license-educational-green)
+
 # SQL – Constraints (Restrições)
 
 Material didático sobre **restrições em SQL**, inspirado no conteúdo educacional do [W3Schools](https://www.w3schools.com/sql/sql_constraints.asp) e reorganizado para fins pedagógicos.
