@@ -1,6 +1,6 @@
 # FOREIGN KEY
 
-A **FOREIGN KEY** cria um relacionamento entre duas tabelas.
+A restrição **FOREIGN KEY** cria um relacionamento entre duas tabelas.
 
 Ela referencia a **PRIMARY KEY de outra tabela**.
 
