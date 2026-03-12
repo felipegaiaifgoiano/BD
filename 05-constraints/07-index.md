@@ -14,42 +14,35 @@ Isso acontece porque o índice também precisa ser atualizado.
 
 ---
 
-# Sintaxe
+# Exemplos
 
-CREATE INDEX nome_do_indice
-ON tabela (coluna);
-
----
-
-# Exemplo
-
+## Índice em uma coluna
+```sql
 CREATE INDEX idx_lastname
 ON Customers (LastName);
+```
 
 Agora consultas que utilizam a coluna `LastName` podem ser executadas mais rapidamente.
 
----
-
-# Índice em múltiplas colunas
+## Índice em múltiplas colunas
 
 Também é possível criar índices compostos.
 
+```sql
 CREATE INDEX idx_nome_cidade
 ON Customers (Name, City);
+```
 
----
+## Remover um índice
 
-# Remover um índice
-
-A sintaxe depende do banco de dados.
+A sintaxe depende do SGBD.
 
 Exemplo no MySQL:
-
+```sql
 DROP INDEX idx_lastname ON Customers;
+```
 
----
-
-# Quando usar índices
+## Quando usar índices
 
 Índices são recomendados em colunas usadas frequentemente em:
 
@@ -57,13 +50,13 @@ DROP INDEX idx_lastname ON Customers;
 - JOIN
 - ORDER BY
 
----
+## Exemplo de consulta beneficiada
 
-# Exemplo de consulta beneficiada
-
+```sql
 SELECT *
 FROM Customers
 WHERE LastName = 'Silva';
+```
 
 Se houver índice em `LastName`, a consulta será mais rápida.
 
@@ -73,13 +66,14 @@ Se houver índice em `LastName`, a consulta será mais rápida.
 
 Considere a tabela:
 
+```sql
 CREATE TABLE Produtos (
     id INT PRIMARY KEY,
     nome VARCHAR(100),
     categoria VARCHAR(100),
     preco DECIMAL
 );
+```
 
-1️⃣ Crie um índice para a coluna `nome`.
-
-2️⃣ Crie um índice composto para `categoria` e `preco`.
+1. Crie um índice para a coluna `nome`.
+2. Crie um índice composto para `categoria` e `preco`.
