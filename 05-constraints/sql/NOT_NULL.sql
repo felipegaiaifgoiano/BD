@@ -1,0 +1,25 @@
+CREATE DATABASE C;
+
+USE C;
+
+CREATE TABLE Pessoas (
+    id INT NOT NULL,
+    nome VARCHAR(100) NOT NULL,
+    idade INT
+);
+
+DESCRIBE Pessoas;
+
+INSERT INTO Pessoas VALUES(NULL, "Joao", NULL);
+INSERT INTO Pessoas VALUES(1, NULL, NULL);
+INSERT INTO Pessoas VALUES(NULL, "Joao", 18);
+INSERT INTO Pessoas VALUES(1, NULL, 17);
+INSERT INTO Pessoas VALUES(1, "", 17);
+INSERT INTO Pessoas VALUES(2, "Joao", 18);
+INSERT INTO Pessoas VALUES(3, "Maria", NULL);
+
+CREATE TABLE Produtos (
+    id INT NOT NULL,
+    nome VARCHAR(100) NOT NULL,
+    preco DECIMAL(10, 2)
+);
